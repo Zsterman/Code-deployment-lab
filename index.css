@@ -20,14 +20,25 @@ h1{
 .navbox{
     display:flex;
     background-color: black;
-    height:75px;
+    border-radius: 25px;
+    height:40px;
     align-items:center;
     justify-content: flex-end;
-    justify-content:space-around;
+    justify-content:space-around
+    
 }
 
 #link{
     color:white;
-
+   
 
 }
+
+#link:hover{
+   cursor:pointer;
+   transform: scale(1.1);
+   background-color: white;
+   color:black;
+   
+}
+
